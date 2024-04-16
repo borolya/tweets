@@ -4,7 +4,7 @@ Sentiment analysis of tweets. Predict whether a tweet is positive, negative, or 
 
 ## Dataset
 
-We have three files containing tweet texts, available in our [data repository](https://github.com/borolya/tweets/blob/main 'link to data'). The filename indicates the corresponding sentiment label for all tweets within it.
+We have three files containing tweet texts, available in our [data repository](https://github.com/borolya/tweets/tree/main/data 'link to data'). The filename indicates the corresponding sentiment label for all tweets within it.
 
 Examles:
 
@@ -57,6 +57,7 @@ The accuracy varies depending on the preprocessing method and vectorization tech
  <img src="sources/randomforest_result.png" alt="drawing" width="400"/>
 
 - **Word2Vect** 
+
    Word2Vec vectorization achieved an accuracy of 0.8094 after classification. It also allows us to see synonyms and antonyms for words. Observe the similar words and the strength of their similarity.
    <img src="sources/word2vect.png" alt="drawing" width="600"/>
 
